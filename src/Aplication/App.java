@@ -25,8 +25,6 @@ public class App {
 			char genero = sc.nextLine().charAt(0);
 			lista[i] = new Pessoas(altura,genero);
 			}
-			int maior = Pessoas.contarHomens(lista);
-			System.out.println("maior"+ maior);
 			
 			double alturaMenor = Pessoas.menorAltura(lista);
 			double alturaMaior = Pessoas.maiorAltura(lista);
